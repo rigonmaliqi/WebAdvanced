@@ -1,0 +1,23 @@
+article p{
+    background:red;
+    padding :20px;
+
+}
+article ~ p{
+    background: blue;
+    padding: 20px;
+}
+article + p{
+    background: yellow;
+    padding: 20px;
+}
+span:first-of-type{
+    background: purple;
+    padding:20px;
+}
+input:invalid{
+    border: 2px solid red;
+}
+input:valid{
+    border: 2px solid green;
+}
