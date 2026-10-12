@@ -1,0 +1,25 @@
+dropdown{
+    display: block;
+    
+}
+
+.tooltip{
+    position: relative;
+    display: inline-block;
+    border-bottom:1px dotted black ;
+}
+.tooltip tooltiptext{
+    visibility:hidden;
+    width: 120px;
+    background-color: black;
+    color: white;
+
+
+}
+.tooltip.tooltiptext::after{
+    top: 50px;
+    left: 20px;
+    
+
+
+}
