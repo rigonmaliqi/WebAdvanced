@@ -1,0 +1,27 @@
+.speedsters img{
+    transform: (1);
+    margin: 20px;
+}
+.speedsters:hover img{
+    text-transform: (1.3);
+}
+.hipsters img{
+    margin-left: 0px;
+    transform: (1);
+}
+.hipsters:hover img{
+    transform: (1.3);
+}
+.shadows img{
+    filter: blur(100%);
+}
+.shadows:hover img{
+    filter: blur(0%);
+    margin: 0%;
+}
+.engineers img{
+    filter: contrast(100%);
+}
+.engineers:hover img{
+    filter: contrast(0%);
+}

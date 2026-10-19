@@ -1,0 +1,10 @@
+.loader{
+    margin: 100px;
+}
+.loader img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    animation: ;
+}
