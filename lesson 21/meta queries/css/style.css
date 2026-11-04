@@ -1,0 +1,6 @@
+@media (min-width: 200px; ) (max-width: 400px;){
+    body{
+        background: navy;
+        color: white;
+    }
+}
