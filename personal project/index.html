@@ -1,164 +1,118 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oakwood Kitchen | Fine Dining</title>
+    <title>Oakwood Kitchen</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
+<header>
+    <nav class="navbar">
+        <h2>Oakwood Kitchen.</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#menu">Our Menu</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <a href="#contact" class="nav-btn">Book a Table</a>
+    </nav>
+</header>
 
-    <header>
-        <nav class="navbar">
-            <h2 class="logo">Oakwood<span>Kitchen.</span></h2>
+<section class="hero" id="home">
+    <div>
+        <h1>Welcome to Oakwood Kitchen</h1>
+        <p>Enjoy delicious food, fresh ingredients and great moments.</p>
+        <br>
+        <a href="#menu" class="btn">Explore Our Menu</a>
+        <a href="#about" class="btn2">Discover More</a>
+    </div>
+</section>
 
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#menu">Our Menu</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-            </ul>
+<section class="about" id="about">
+    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=900" alt="Restaurant food">
+    <div>
+        <p class="subtitle">OUR STORY</p>
+        <h2>A Passion for Great Food</h2>
+        <p>At Oakwood Kitchen we prepare every dish with fresh vegetables and meat.</p>
+        <a href="#menu" class="btn">Discover Our Menu</a>
+    </div>
+</section>
 
-            <a href="#contact" class="nav-btn">Book a Table</a>
-        </nav>
-    </header>
+<section class="menu" id="menu">
+    <div class="heading">
+        <h2>Our Special Menu</h2>
+        <p>Here is a look at some of our best dishes.</p>
+    </div>
 
-
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <p class="subtitle">WELCOME TO OAKWOOD KITCHEN</p>
-
-            <h1>Where Taste Meets <span>Elegance</span></h1>
-
-            <p>
-                Experience delicious food, fresh ingredients
-                and unforgettable moments.
-            </p>
-
-            <div class="hero-buttons">
-                <a href="#menu" class="btn">Explore Menu</a>
-                <a href="#about" class="btn-outline">Discover More</a>
-            </div>
-        </div>
-    </section>
-
-    <section class="about" id="about">
-        <div class="about-image">
-            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=900"
-                 alt="Elegant restaurant dining">
-        </div>
-
-        <div class="about-content">
-            <p class="subtitle">OUR STORY</p>
-            <h2>A Passion for Great Food</h2>
-
-            <p>
-                At Oakwood Kitchen, we believe that every meal
-                should be an unforgettable experience.
-                Our chefs combine fresh ingredients,
-                creativity and passion to create exceptional dishes.
-            </p>
-
-            <a href="#menu" class="btn">Discover Our Menu</a>
-        </div>
-    </section>
-
-    
-    <section class="menu" id="menu">
-        <div class="section-heading">
-            <p class="subtitle">TASTE THE DIFFERENCE</p>
-            <h2>Our Special Menu</h2>
-            <p>Carefully prepared dishes made with fresh ingredients.</p>
+    <div class="food-container">
+        <div class="food">
+            <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=700" alt="Grilled steak">
+            <h3>Premium Grilled Steak</h3>
+            <p>Grilled steak with roasted vegetables and herbs.</p>
+            <span>$24.99</span>
+            <a href="#contact">Order Now</a>
         </div>
 
-        <div class="menu-container">
-
-            <div class="food-card">
-                <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=700"
-                     alt="Grilled steak">
-                <div class="food-info">
-                    <h3>Premium Grilled Steak</h3>
-                    <p>Juicy grilled steak with roasted vegetables and herbs.</p>
-                    <div class="food-bottom">
-                        <span>$24.99</span>
-                        <a href="#contact">Order Now</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="food-card">
-                <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=700"
-                     alt="Italian pasta">
-                <div class="food-info">
-                    <h3>Creamy Italian Pasta</h3>
-                    <p>Fresh pasta with creamy sauce and parmesan cheese.</p>
-                    <div class="food-bottom">
-                        <span>$16.99</span>
-                        <a href="#contact">Order Now</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="food-card">
-                <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=700"
-                     alt="Fresh salad">
-                <div class="food-info">
-                    <h3>Garden Fresh Salad</h3>
-                    <p>Fresh greens, tomatoes, avocado and house dressing.</p>
-                    <div class="food-bottom">
-                        <span>$12.99</span>
-                        <a href="#contact">Order Now</a>
-                    </div>
-                </div>
-            </div>
-
+        <div class="food">
+            <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=700" alt="Italian pasta">
+            <h3>Creamy Italian Pasta</h3>
+            <p>Fresh pasta with creamy sauce and parmesan cheese.</p>
+            <span>$16.99</span>
+            <a href="#contact">Order Now</a>
         </div>
-    </section>
 
-    <section class="offer">
+        <div class="food">
+            <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=700" alt="Fresh salad">
+            <h3>Garden Fresh Salad</h3>
+            <p>Fresh greens, tomatoes, avocado and dressing.</p>
+            <span>$12.99</span>
+            <a href="#contact">Order Now</a>
+        </div>
+    </div>
+</section>
+
+<section class="offer">
+    <p class="subtitle">CHEF'S RECOMMENDATION</p>
+    <h2>Good Food. Great Moments.</h2>
+    <p>Come and enjoy our special dishes.</p>
+    <a href="#menu" class="btn">View Our Menu</a>
+</section>
+
+<section class="contact" id="contact">
+    <div class="heading">
+        <p class="subtitle">GET IN TOUCH</p>
+        <h2>Visit Oakwood Kitchen</h2>
+        <p>We welcome you!</p>
+    </div>
+
+    <div class="contact-container">
         <div>
-            <p class="subtitle">CHEF'S RECOMMENDATION</p>
-            <h2>Good Food. Great Moments.</h2>
-            <p>Enjoy our special selection of chef-inspired dishes.</p>
-            <a href="#menu" class="btn">View Special Dishes</a>
+            <h3>Our Location</h3>
+            <p>Peja, Kosovo</p>
         </div>
-    </section>
-
-    <section class="contact" id="contact">
-        <div class="section-heading">
-            <p class="subtitle">GET IN TOUCH</p>
-            <h2>Visit Oakwood Kitchen</h2>
-            <p>We would love to welcome you!</p>
+        <div>
+            <h3>Opening Hours</h3>
+            <p>Monday - Sunday</p>
+            <p>09:00 AM - 11:00 PM</p>
         </div>
-
-        <div class="contact-box">
-            <div>
-                <h3>Our Location</h3>
-                <p>Peja, Kosovo</p>
-            </div>
-
-            <div>
-                <h3>Opening Hours</h3>
-                <p>Monday - Sunday</p>
-                <p>09:00 AM - 11:00 PM</p>
-            </div>
-
-            <div>
-                <h3>Contact</h3>
-                <p>Phone: +383 49 000 000</p>
-                <p>Email: info@oakwoodkitchen.com</p>
-            </div>
+        <div>
+            <h3>Contact</h3>
+            <p>Phone: +383 49 000 000</p>
+            <p>Email: oakwoodkitchen@gmail.com</p>
         </div>
-    </section>
+    </div>
+</section>
 
-    <footer>
-        <h2>Oakwood<span>Kitchen.</span></h2>
-        <p> 2026 Oakwood Kitchen. All Rights Reserved.</p>
-        <p>Made with passion and fresh ingredients.</p>
-    </footer>
+<footer>
+    <h2>Oakwood Kitchen.</h2>
+    <p>2026 Oakwood Kitchen. All Rights Reserved.</p>
+    <p>Made with fresh ingredients.</p>
+    <p>Founder: Rigon Maliqi</p>
+    <p>Since 1999.</p>
+</footer>
 
 </body>
 </html>
