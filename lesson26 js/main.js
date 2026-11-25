@@ -24,3 +24,15 @@ var k = 10;
 var l =4;
 var m =k % l
 console.log(m)
+
+var n = 99;
+o++;
+console.log(o);
+
+var p = 101;
+q--;
+console.log(q);
+
+var r = 20;
+s** 2;
+console.log(s)
